@@ -7,3 +7,6 @@ The page features a clean and modern design with a white background, subtle shad
 The page is responsive and designed to work well on various devices.
 
 Feel free to use and customize this template for your own projects!
+
+##### Keywords
+#ComingSoon #UnderConstruction #Website #WebDesign #WebDevelopment #Placeholder #ContactForm #ResponsiveDesign #ModernDesign #Bootstrap #HTML #CSS #Frontend #FreeTemplate #OpenSource #WebTemplate #WebPage #WebDevelopment #DesignInspiration
