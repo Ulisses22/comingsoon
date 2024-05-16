@@ -70,7 +70,7 @@
         form textarea {
             width: calc(100% - 20px);
             padding: 5px;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             font-family: inherit;
@@ -102,6 +102,39 @@
         .g-recaptcha {
             margin-left: 10px;
             margin-top: 5px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                height: auto;
+                min-height: 100vh;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            form input[type="email"],
+            form input[type="text"],
+            form textarea {
+                width: 100%;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            form button {
+                width: 100%;
+                padding: 15px;
+                font-size: 14px;
+            }
+
+            .g-recaptcha {
+                width: 100%;
+                margin: 0;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
