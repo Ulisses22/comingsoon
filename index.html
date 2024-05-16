@@ -107,7 +107,7 @@
             <img src="gear.svg" alt="Gear" class="logo-img">
 
             <!-- Form -->
-            <form action="https://formbold.com/s/3NLqY" method="POST" class="mb-5">
+            <form action="https://formbold.com/s/3NLqY" id="contact-form" method="POST" class="mb-5">
                 <h3>Contact</h3>
                 <input type="email" placeholder="Email" name="email" required>
                 <br>
@@ -115,7 +115,7 @@
                 <br>
                 <textarea name="message" placeholder="Type your message" required></textarea>
                 <br>
-                <button id="demo-form" data-sitekey="reCAPTCHA_site_key" 
+                <button data-sitekey="reCAPTCHA_site_key" 
                     data-callback='onSubmit' 
                     data-action='submit'>Send Message</button>
             </form>
@@ -126,7 +126,7 @@
 
     <script>
        function onSubmit(token) {
-         document.getElementById("demo-form").submit();
+         document.getElementById("contact-form").submit();
        }
      </script>
 
