@@ -81,7 +81,7 @@
             height: 100px;
         }
 
-        form button {
+        form input {
             background-color: #4a148c;
             color: #fff;
             padding: 10px 20px;
@@ -93,7 +93,7 @@
             transition: background-color 0.3s;
         }
 
-        form button:hover {
+        form input:hover {
             background-color: #6a1b9a;
         }
     </style>
@@ -115,9 +115,8 @@
                 <br>
                 <textarea name="message" placeholder="Type your message" required></textarea>
                 <br>
-                <button data-sitekey="6LdZzt4pAAAAAJTWL1w4Hfz97DnlAqA9OdYdbvK7" 
-                    data-callback='onSubmit' 
-                    data-action='submit'>Send Message</button>
+                <input type="submit" value="Send Message">
+                <div class="g-recaptcha" data-sitekey="6LdZzt4pAAAAAJTWL1w4Hfz97DnlAqA9OdYdbvK7"></div>
             </form>
             <!-- End Form -->
             <p>By <b>UNFA</b> 🐯</p>
